@@ -1,0 +1,160 @@
+body {
+  background-image: url('/img/Mediamodifier.svg ');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.card {
+  width: 100%;
+  max-width: 800px !important;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 25px;
+  background-color: #fff;
+  border-radius: 2em !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.info-label {
+  font-weight: bold;
+  margin-right: 30px;
+  width: 130px;
+}
+
+.info-text {
+  font-weight: normal;
+  margin-right: 20px;
+  margin-left: 5px;
+  word-wrap:break-word !important;
+
+}
+.last-info{
+  margin-bottom: 0px !important;
+}
+.student-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-info {
+  flex: 1;
+}
+
+.right-info {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.student-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media (min-width: 900px) {
+
+  .student-image {
+    margin-left: 30px;
+    
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+.card {
+  margin: 0px;
+  padding: 10px;
+  padding-top: 0px !important;
+  height: fit-content !important;
+}
+.left-info {
+  width: 100%;
+}
+
+.right-info {
+  margin-top: 20px;
+  width: 100%;
+  border-left: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.info {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.info-label {
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.student-info {
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.student-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.card {
+  
+  padding-top: 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
+ 
+}
+.left-info > div:last-child {
+  margin-bottom: 0;
+}
+
+.left-info > div:first-child {
+  margin-top: 0;
+}
+
+.left-info > div {
+  margin-top: 20px;
+}
+
+.info-text {
+  white-space: nowrap;
+
+}
+.home{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+}
+
+h4 {
+font-size: x-large !important;
+}

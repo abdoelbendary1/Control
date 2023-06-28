@@ -1,0 +1,88 @@
+#logo {
+    font-size: 45px;  
+}
+
+#myCard {
+    background-color: #f1f1f1;
+    border-radius: 1rem; 
+    border: none; 
+    color: #052c54;
+    box-shadow: rgba(0, 0, 0) 0px 22px 70px 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#myInput{
+    box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+    font-size: 16px;
+    border-radius: 2em;
+    width: 100%;
+}
+
+#myInput:hover {
+    border: solid 1.5px #1887D9;
+}
+
+#myPass{
+    box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+    font-size: 16px;
+    border-radius: 2em;
+    width: 100%;
+}
+
+#myPass:hover {
+    border: solid 1.5px #1887D9;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -35px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+}
+
+#email_error, #pass_error{
+	margin-top: 5px;
+	font-size: 15px !important;
+	color: #C62828;
+	text-align: center;
+	padding: 5px 8px;
+	display: none;
+}
+
+#submit {
+    width: 100%; 
+    border-radius: 1.5rem; 
+    color: white; 
+    background-color: #052c54;
+    box-shadow: 0px 0px 18px -7px rgb(0, 0, 0, 0.8);
+
+}
+
+#submit:hover {
+    background-color: #f5c115;
+    color: #052c54;
+    font-weight: bold;
+    border: solid 1.5px #052c54;
+}
+
+#user-type{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.user-type{
+	width:20px !important;
+	margin-right: 3px;
+}
+
+#user-type label {
+	font-size: 16px;
+	color: #052c54;
+	margin-right: 10px;
+}

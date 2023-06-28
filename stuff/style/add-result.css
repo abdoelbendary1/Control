@@ -1,0 +1,127 @@
+img {
+  max-width: 180px;
+  max-height: 100px;
+}
+h1 {
+  margin-bottom: 30px !important;
+}
+#mySelect {
+  font-size: 20px;
+  -webkit-box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+}
+#myInput {
+  font-size: 20px;
+  -webkit-box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+}
+.buttonx {
+  background: #052c54 !important ;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border-radius: 50%;
+  float: left;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 16px;
+  text-rendering: auto;
+  display: inline;
+}
+
+.buttonx:hover {
+  background-color: #1887d9 !important ;
+}
+
+#numInput {
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 6px 8px !important;
+  border-radius: 1.5em !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: rgb(24, 135, 217) !important;
+  border-image: initial !important;
+}
+
+.new1 {
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 6px 8px !important;
+  border-radius: 1.5em !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: rgb(24, 135, 217) !important;
+  border-image: initial !important;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#mySelect {
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 2em;
+  width: 100%;
+  border: solid 2px #1887d9;
+}
+#myInput {
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 2em;
+  width: 100%;
+  border: solid 2px #1887d9;
+}
+
+label {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  background: #052c54;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border-radius: 2em;
+}
+
+th {
+  border-bottom: none !important;
+}
+
+.button:hover {
+  background-color: #198754;
+}
+
+@media (max-width: 600px) {
+  #myInput {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #mySelect {
+    width: 100%;
+    margin-left: 0px;
+  }
+  label {
+    width: 30%;
+    font-size: 0.95em;
+    margin-right: 0px;
+  }
+}

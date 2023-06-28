@@ -1,0 +1,33 @@
+.questionnaire {
+    margin-top: 30px;
+  }
+  .questionnaire table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .questionnaire th, .questionnaire td {
+    padding: 10px;
+    text-align: center;
+  }
+  .questionnaire th {
+    background-color: #f2f2f2;
+  }
+  .questionnaire input[type="radio"] {
+    margin: 0 auto;
+  }
+  .questionnaire input[type="submit"] {
+    margin-top: 20px;
+  }
+
+  .submit {
+    background-color: #052c54;
+    color: white;
+    border-radius: 2em;
+    padding: 7px;
+    width: 50%;
+  }
+
+  .submit:hover {
+    background-color: #087f14;
+    color: white;
+  }

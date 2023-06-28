@@ -1,0 +1,1 @@
+<?php session_start();print_r($_SESSION);$new = "5";include "../../login/conncection.php";$studentId = $_SESSION["id"];$insert = "INSERT INTO `attendance`(`course_id`, `student_id`) VALUES (?,?)";$stmt1 = $conn->prepare($insert);$stmt1->execute([$new, $studentId]);

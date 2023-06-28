@@ -1,0 +1,53 @@
+
+.table-responsive td {
+    font-size: 1em;
+  }
+  
+  .table-responsive thead{
+      font-size: 1em;
+      padding: 1em;
+    }
+  
+  th{
+    border-bottom: none !important;
+  }
+  
+  .navbar input{
+    grid-column: 2/4;
+    border-radius: 2em;
+    border: solid 2px #1887D9;
+    padding: 0.5em 1em;
+    -webkit-box-shadow: 0px 0px 18px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+  }
+  
+  .buttonx {
+    background:#052c54 !important ;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: .4s ease;
+    border-radius: 50%;
+    float: left;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    text-rendering: auto;
+    display: inline;} 
+  
+    .buttonx:hover {
+      background-color: #1887D9 !important ; 
+    }
+
+    
+  h1{
+    display: inline;
+  }
+  
+  
+  #sidebar {
+    min-height: 100%;
+  }

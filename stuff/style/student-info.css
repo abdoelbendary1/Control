@@ -1,0 +1,72 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+h1{
+    margin-bottom: 30px !important;
+}
+#mySelect{
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 18px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -7px rgba(0,0,0,0.75);
+    
+}
+#myInput{
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 18px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -7px rgba(0, 0, 0, 0.75);
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#mySelect {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 2em;
+    width: 100%;
+    border: solid 2px #1887D9;
+
+
+}
+#myInput{
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 2em;
+    width: 100%;
+    border: solid 2px #1887D9;
+
+}
+th{
+    border-bottom: none !important;
+}
+label{
+    display: inline-block;
+    font-size: 1.2em;
+}
+form{
+    margin-bottom: 10px;
+}
+tr > td:nth-child(1), tr > td:nth-child(2), tr > td:nth-child(4), tr > td:nth-child(5), tr > td:nth-child(6) {
+    padding-top: 50px;
+}
+@media (max-width:600px){
+    #myInput{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #mySelect {
+        width: 100%;
+        margin-left: 0px;
+    }
+    label {
+        width: 30%;
+        font-size: 0.95em;
+        margin-right: 0px;
+    }
+}

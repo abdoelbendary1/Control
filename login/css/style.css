@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-size: cover;
+	background: linear-gradient(to right, #052c54,#f5c115);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: sans-serif;
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+.container{
+	background:rgba(255, 255, 255, 0.1);
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	border-radius: 20px;
+}
+.label{
+	padding: 20px 130px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #052c54;
+	text-align: center;
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #052c54;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+	border-radius: 15px;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+
+.login_form button{
+	margin: 30px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: #ffff;
+	
+	cursor: pointer;
+	font-weight: bold;
+	background: #f5c115;
+	border-radius: 8px;
+	border: 0PX ;
+	transition: .5s;
+}
+.login_form button:hover{
+	background: #052c54;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 8px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+#user-type{
+	display: flex;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin:40px 0 5px 0;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.user-type{
+	width:20px !important;
+	margin-right: 5px;
+	margin-bottom: 0px;
+}
+#user-type label {
+	font-size: 15px;
+	
+	color: #052c54;
+	margin-right: 10px;
+}
